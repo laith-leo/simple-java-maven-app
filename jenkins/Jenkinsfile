@@ -31,7 +31,7 @@ pipeline {
         }
         stage('BUZZ-BUZZ') {
             steps {
-                sh './jenkins/scripts/test-all.sh'
+                sh './jenkins/scripts/deliver.sh'
             }
         }
     }
